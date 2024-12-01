@@ -3,6 +3,8 @@
 --Actif = Pixel art net, Inactif = effet de flou
 love.graphics.setDefaultFilter( "nearest" )
 
+--test
+
 --  ██████  █████  ██      ██      ██████   █████   ██████ ██   ██ ███████ 
 -- ██      ██   ██ ██      ██      ██   ██ ██   ██ ██      ██  ██  ██      
 -- ██      ███████ ██      ██      ██████  ███████ ██      █████   ███████ 
