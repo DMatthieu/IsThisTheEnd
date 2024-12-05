@@ -9,7 +9,7 @@ function Class:new()
 end
 
 -- ********* CREE UNE NOUVELLE CLASSE à partir de "CLASS". On HERITE de la structure et du fctnement de Class, pour faire de la POO.  ********
-function Class:derive(type)
+function Class:derive(class_type)
     assert(class_type ~= nil, "parameter class_type must not be nil!")
     assert(type(class_type) == "string", "parameter class_type class must be string!")
     local cls = {}
